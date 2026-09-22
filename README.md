@@ -13,11 +13,15 @@ PDFMind is a Streamlit-based application that allows users to upload a PDF (up t
 ### AI Question Answering & Grounded Sources
 ![PDFMind Q&A Interface](assets/chat_qa.jpg)
 
+### Out-of-Context Fallback & Strict Grounding
+![Strict Grounding & Fallback Response](assets/fallback_handling.jpg)
+
 ## 3. Features
 - Upload PDF files directly in the browser
 - Automatic text extraction and chunking
 - Grounded answers strictly based on the uploaded document
 - Source tracking (showing exact page and text chunk)
+- Out-of-context detection fallback ("I could not find the answer in the PDF.")
 - Clean, dark-mode Streamlit UI
 
 ## 4. Tech stack
@@ -104,7 +108,8 @@ PDFMind/
 ├── assets/
 │   ├── home_upload.jpg
 │   ├── processing.jpg
-│   └── chat_qa.jpg
+│   ├── chat_qa.jpg
+│   └── fallback_handling.jpg
 └── chroma_db/
 ```
 
