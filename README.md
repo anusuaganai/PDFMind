@@ -144,5 +144,5 @@ PDFMind/
 
 Developed by:
 
-**Anusua Ganai • Sayantika Bera • Kasturi Das**
+**Anusua Ganai • Sayantika Bera • Kasturi Das** .
 
