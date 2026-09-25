@@ -122,3 +122,27 @@ PDFMind/
 - **No readable text:** Ensure your PDF is a text-based document, not scanned images.
 - **Missing API key:** Double-check that your `.env` file contains a valid `GROQ_API_KEY`.
 - **Pages limit:** The app is configured to accept a maximum of 6 pages for demonstration purposes.
+
+## Project Highlights
+
+* 📄 Ask questions directly from uploaded PDFs
+* 🔍 Semantic search using HuggingFace embeddings
+* 🧠 Context-aware answers using RAG
+* 📚 ChromaDB for vector storage and retrieval
+* ⚡ Fast LLM inference using Groq API
+* 💻 Interactive Streamlit interface
+
+## Future Improvements
+
+* Support for multiple PDFs
+* Chat history and conversational memory
+* PDF summarization and key-point extraction
+* OCR support for scanned PDFs
+* Improved page-level source citations
+
+## Credits
+
+Developed by:
+
+**Anusua Ganai • Sayantika Bera • Kasturi Das**
+
